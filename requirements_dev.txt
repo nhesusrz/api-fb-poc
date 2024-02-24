@@ -1,0 +1,8 @@
+-r requirements.txt
+flake8==3.4.1
+coverage==4.3.4 # This is the most recent version for SonarQube not to fail, reach DORA in case of doubt
+pytest==3.2.5
+pytest-cov==2.5.1
+pytest-mock==1.6.3
+pytest-random-order==0.8.0
+

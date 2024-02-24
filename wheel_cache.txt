@@ -1,0 +1,23 @@
+# regenerate this file by running docker-test, then enter to the virtualenv generated and do a pip freeze,
+# remove osp packages, requests, requests-ntlm and you are done
+-r index_url.txt
+bumpversion==0.5.3
+coverage==4.1
+docutils==0.14
+flake8==3.4.1
+Jinja2==2.10
+MarkupSafe==1.0
+mccabe==0.5.3
+pyflakes==1.2.3
+Pygments==2.2.0
+pytest==3.2.5
+pytest-cov==2.4.0
+pytest-mock==1.6.3
+pytest-runner==2.11.1
+pytest-sugar==0.8.0
+six==1.11.0
+Sphinx==1.4.8
+structlog==17.2.0
+termcolor==1.1.0
+watchdog==0.8.3
+
